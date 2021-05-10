@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+header {
+    border-bottom:5px solid #B8860B;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 80px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    margin-left: 30px;
+    transition: transform 100ms linear;
+}
+
+#logo:hover{
+    transform: scale(1.4);
+}
+
+nav {
+    display: flex;
+    text-align: right;
+    padding: 10px;
+}
+
+nav a {
+    margin-right: 30px;
+    height: 45px;
+}
+
+.Banner {
+    display: flex;
+    background-color: #6900ff;
+    height: 500px ;
+}
+
+.box {
+    background-image: url(../IMG/guilhermeO.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+}
+
+.box-text {
+    padding: 50px;
+    height: 500px;
+    width: 50%;
+}
+
+#box-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#box-box a {
+    align-self: center;
+}
+
+#Name {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: 3px 3px 1px black;
+}
